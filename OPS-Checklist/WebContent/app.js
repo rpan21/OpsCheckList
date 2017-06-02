@@ -13,10 +13,6 @@
          });
 	 });
 	 
-	 $('#create_pdf').on('click', function() {
-	  $('body').scrollTop(0);
-	  createPDF();
-		});
 
 	 $('#create_pdf').on('click', function() {
 	  $('body').scrollTop(0);
@@ -49,11 +45,6 @@
 	}());
 
 function createNewCheckbox(id){
-	/*var x = document.createElement("INPUT");
-    x.setAttribute("type", "checkbox");
-    x.setAttribute("value", id);
-    x.setAttribute("name", "checkboxes");*/
-   // x.setAttribute("class", "checkboxes");
     return '<input type="checkbox" value="'+ id +'" name="checkboxes" />';
 }
 
