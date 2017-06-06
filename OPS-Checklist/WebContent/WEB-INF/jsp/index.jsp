@@ -51,10 +51,10 @@ h4 {
 <form action="hello.html" method="post">
 <div class="container">
     <div class="row">
-        <div class="col-md-offset-5 col-md-3">
+        <div class="col-md-offset-5 col-md-3" style='left: 300px;'>
             <div class="form-login">
             <h4>Welcome back.</h4>
-            <input type="text" id="userName" name="userName" class="form-control input-sm chat-input" placeholder="username" />
+            <input  type="text" id="userName" name="userName" class="form-control input-sm chat-input" placeholder="username" />
             </br>
             <input type="password" id="userPassword" name="userPassword" class="form-control input-sm chat-input" placeholder="password" />
             </br>
