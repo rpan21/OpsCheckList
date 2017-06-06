@@ -45,6 +45,11 @@ public class ChecklistService {
                }
                return null;
     }
+
+    public ChecklistService() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
         
     }
     
